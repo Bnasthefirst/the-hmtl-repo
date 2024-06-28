@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		/* Style the header */
+		h1 {
+			color: #00698f; /* blue color */
+			text-align: center; /* center the text */
+			font-size: 36px; /* increase font size */
+		}
+		
+		/* Style the paragraph */
+		p {
+			color: #666; /* gray color */
+			text-align: justify; /* justify the text */
+			font-size: 18px; /* increase font size */
+			padding: 20px; /* add some space around the text */
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Gloria Enterprise.  A Venture Capital in Nigeria.</h1>
+	
+	<p>This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.</p>
+	
+	<img src="image_url" alt="Image Description" width="500" height="300">
+	
+	<button>Click Here Gloria Said!</button>
+	
+	<a href="https://safari.com"><button>LAUNCH!</button></a>
+	
+</body>
+</html>
