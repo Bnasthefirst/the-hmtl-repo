@@ -19,13 +19,13 @@
 	</style>
 </head>
 <body>
-	<h1>Welcome to Gloria Enterprise.  A Venture Capital in Nigeria.</h1>
+	<h1>Welcome to 	Bnas Enterprise.  A Venture Capital in Nigeria.</h1>
 	
 	<p>This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.This is a paragraph of text.</p>
 	
 	<img src="image_url" alt="Image Description" width="500" height="300">
 	
-	<button>Click Here Gloria Said!</button>
+	<button>Click Here Bnas Said!</button>
 	
 	<a href="https://safari.com"><button>LAUNCH!</button></a>
 	
