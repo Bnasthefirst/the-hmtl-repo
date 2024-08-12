@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            overflow: hidden;
+        }
+        .left-column {
+            width: 35%;
+            background-color: #c47ed5;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left-column img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .left-column h2 {
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .left-column p {
+            text-align: center;
+            line-height: 1.5;
+        }
+        .right-column {
+            width: 65%;
+            padding: 20px;
+        }
+        .right-column h2 {
+            margin-top: 0;
+            font-size: 32px;
+            color: #553675;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #3e497a;
+            margin-top: 20px;
+        }
+        .skills-list, .contact-list, .experience-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li, .contact-list li, .experience-list li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .skills-list li::before, .experience-list li::before {
+            content: "➤";
+            margin-right: 8px;
+            color: #553675;
+        }
+        .contact-list li::before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        .contact-list li:nth-child(1)::before {
+            background-image: url('your-twitter-icon-url.png');
+            background-size: cover;
+        }
+        .contact-list li:nth-child(2)::before {
+            background-image: url('your-email-icon-url.png');
+            background-size: cover;
+        }
+        .contact-list li:nth-child(3)::before {
+            background-image: url('your-discord-icon-url.png');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <div class="left-column">
+        <img src="your-image-url.jpg" alt="Profile Picture">
+        <h2>BNAS </h2>
+        <p>Skilled communicator with the ability to motivate and inspire teams to drive positive outcomes and develop long-term customer relationships.</p>
+        <h3>Contact Me</h3>
+        <ul class="contact-list">
+            <li>@bnas07</li>
+            <li>Bnasthefirst@gmail.com</li>
+        </ul>
+    </div>
+    <div class="right-column">
+        <h2>RESUME </h2>
+        <h3 class="section-title">Skills</h3>
+        <ul class="skills-list">
+            <li>HTML knowledge </li>
+            <li>Conversational skills</li>
+            <li>javascript</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Solidity</li>
+            <li>Community management</li>
+        </ul>
+        <p><strong>Timezone:</strong> UTC +1</p>
+        
+        <h3 class="section-title">Language</h3>
+        <li> English </li>
+        <li> French  </li>
+
+      
+        
+        <h3 class="section-title">Projects </h3>
+        <ul class="experience-list">
+            <li> Olympia Alpha </li>
+            <li> Base Pigs NFT </li>
+            <li> Skelly verse </li>
+
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
